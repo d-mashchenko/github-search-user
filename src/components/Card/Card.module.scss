@@ -1,0 +1,20 @@
+.main_content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    @media (max-width: 420px) {
+      flex-direction: column;
+  }
+ }
+
+ .avatar {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 30px;
+
+    @media (max-width: 420px) {
+       margin-right: 0;
+  }
+ }
